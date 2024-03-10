@@ -12,7 +12,7 @@
                 placeholder="Enter a Track" 
                 ><?= $track['tracks']?></textarea>          
           <?php if (isset($errors['tracks'])): ?>
-        <p><?=$errors['tracks'];?></p>
+        <p><?=$errors['tracks'];?></p>~
         <?php endif;?>
      
         <button type="submit" style="background-color: #cca8e9; color: #fff; padding: 10px; border: none; border-radius: 4px; cursor: pointer;" onmouseover="this.style.backgroundColor='#45a049'" onmouseout="this.style.backgroundColor='#4caf50'">Submit</button>

@@ -72,14 +72,14 @@
 <div class="container">
     <p>Create New Track</p>
     <form method="post" action="/tracks">
-        <label for="music">Track</label>
+        <label for="tracks">Track</label>
         <textarea
             type="text"
-            name="music"
-            placeholder="Enter a Track"><?= $_POST['music'] ?? ''?></textarea>
+            name="tracks"
+            placeholder="Enter a Track"><?= $_POST['tracks'] ?? ''?></textarea>
 
-        <?php if (isset($errors['music'])): ?>
-            <p class="error-message"><?= $errors['music']; ?></p>
+        <?php if (isset($errors['tracks'])): ?>
+            <p class="error-message"><?= $errors['tracks']; ?></p>
         <?php endif; ?>
 
         <button type="submit">Submit</button>

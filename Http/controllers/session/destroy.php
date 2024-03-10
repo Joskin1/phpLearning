@@ -1,5 +1,4 @@
 <?php
-dd('destroy');
 logout();
-header("location: /about");
+header("location: /");
 exit();

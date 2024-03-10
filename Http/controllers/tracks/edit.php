@@ -14,6 +14,5 @@ view('tracks/edit.view.php', [
     'heading' => 'Edit Track',
     'errors' => [],
     'track' => $track
-    
 ]);
 

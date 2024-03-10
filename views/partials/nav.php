@@ -6,7 +6,7 @@
         <a href="/tracks">Tracks</a>
         <?php endif ; ?>
        <?php if($_SESSION['user'] ?? false) :?>
-          <form method="POST" action="/session" style="position: absolute; top: 0; right: 0; margin: 10px;">
+               <form method="POST" action="/sessions" style="position: absolute; top: 0; right: 0; margin: 10px;">
         <input type="hidden" name="_method" value="DELETE">
         <button style="background-color: black; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#333'" onmouseout="this.style.backgroundColor='black'">Log Out</button>
 

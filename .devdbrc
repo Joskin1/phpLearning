@@ -5,8 +5,8 @@
     "type": "mysql",
     "host": "localhost",
     "port": "3306",
-    "username": "oluwadamilare",
-    "password": "12345@Oluwadamilare",
+    "username": "root",
+    "password": "1234@oluwadamilare",
     "database": "myproject"
   }
 ]

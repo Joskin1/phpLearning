@@ -1,19 +1,27 @@
 {
-    "name": "oluwadamilare/php-learning",
+    "name": "admin/php-learning",
     "authors": [
         {
-            "name": "Akinbomi Oluwadamilare",
+            "name": "joskin",
             "email": "joskinjoseph1@gmail.com"
         }
     ],
     "require": {
-        "illuminate/collections": "^10.43"
+        "illuminate/collections": "^10.44"
     },
     "autoload": {
         "psr-4": {
-            "Core\\": "Core/ ",
-            "Http\\": "Http/ "
-
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
         }
     }
 }
