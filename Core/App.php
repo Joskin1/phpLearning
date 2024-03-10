@@ -17,7 +17,7 @@ class App
     }
     public static function resolve($key)
     {
-        dd(static::container());
+
        return static::container()->resolve($key);
     }
 
